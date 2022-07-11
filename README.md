@@ -4,9 +4,11 @@ Apply analyses, visualizations, and statistical skills while retriving JSON data
 ## Overview of Project
 
   ### Background  
-  Collect weather data from over 500 cities around the world via API. Analyse this data using Pandas, and plot the data using Matplotlib library and Google Maps API. Perform statistical anaysis with SciPy library to visualize relationship between latitude and various weather parameters. 
-    
+  Client is a travel technology company that speccializes in internet related services in hotel industry. Client has requested we collect, analyze, and present weather data on the agency search page so customers can filter by their prefered criteria to find their ideal vacation location. 
+      
   ### Purpose
+  Collect weather data from over 500 random cities around the world via API. Analyze this data using Pandas, and plot the data using Matplotlib library and Google Maps API. Perform statistical anaysis with SciPy library to visualize relationship between latitude and various weather parameters and use linear regression to predict the best time of year for travel to desired locations. Present findings with Jupyter Gmaps and Google Places API. 
+  
   ### Deliverables
   1) Retrieve randomized Weather Data via API call to [OpenWeatherMap](https://openweathermap.org/) and export to csv file that contains  
      - Latitude and Longitude
@@ -26,8 +28,8 @@ Apply analyses, visualizations, and statistical skills while retriving JSON data
   
   
   ### Resources
-   - Data Sources: 
-   - Technology: Jupyter Notebook, Pandas Library, CitiPy module, Python Requests, APIs, JSON Traversals
+   - Data Sources: OpenWeatherMap API, Google Maps and Places API
+   - Technology: Jupyter Notebook, Pandas Library, NumPy module, citipy module, Python Requests, APIs, JSON Traversals
 
 
 ## Analysis
